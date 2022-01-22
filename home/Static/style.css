@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button:focus {
+    background-color: #4CAF50;
+}
+
+.inputText {
+    height: 50px;
+    width: 300px;
+    border: #4CAF50 2px solid;
+}
+
+.inputText:focus{
+    outline: none;
+}
+
+.form {
+    text-align: center;
+}
+
+.submitBtn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
